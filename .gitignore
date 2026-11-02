@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Application output / builds
+build/
+dist/
+*.spec
+*.exe
+*.dll
+
+# Signing material (never publish a private key)
+*.pfx
+*.p12
+*.snk
+assets/*.cer
+build/certs/
+
+# Model/experiment artifacts that must not be published
+runs/
+logs/
+crash.log
+*.log
+
+# Datasets: raw photographs and annotation sets stay private / are shared separately
+data/
+raw_pics/
+dataset/
+trainset_*/
+*_set/
+*_sample/
+*.zip
+*.7z
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
